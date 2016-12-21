@@ -1,0 +1,16 @@
+Source: libpdfium-dev
+Priority: optional
+Maintainer: Yaroslav Fedorov <Fedorov.mail@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.7
+Section: libs
+Homepage: https://pdfium.googlesource.com/pdfium/
+Vcs-Git: https://pdfium.googlesource.com/pdfium
+Vcs-Browser: https://pdfium.googlesource.com/pdfium/
+
+Package: libpdfium-dev
+Section: libdevel
+Architecture: amd64
+Depends: libglib2.0-dev (>2.0), ${misc:Depends}
+Description: Open Source PDF viewing, text extracting, navigating and editing library powered by Google. 
+ it's also part of Google Chrome project.
